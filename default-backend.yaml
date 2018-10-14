@@ -6,7 +6,7 @@ metadata:
   labels:
     k8s-app: default-http-backend
 spec:
-  type: NodePort
+  type: LoadBalancer
   ports:
   - port: 80
     targetPort: 8080
