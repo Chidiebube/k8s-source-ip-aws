@@ -13,6 +13,6 @@ spec:
       http:
         paths:
         #- path: /test
-          backend:
+        - backend:
             serviceName: source-ip
             servicePort: 80
