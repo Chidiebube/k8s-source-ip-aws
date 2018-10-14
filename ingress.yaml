@@ -12,7 +12,6 @@ spec:
     - host: a28a70911cfa611e89e65020a2cc9e06-1891411889.us-west-2.elb.amazonaws.com
       http:
         paths:
-        #- path: /test
         - backend:
             serviceName: source-ip
             servicePort: 80
