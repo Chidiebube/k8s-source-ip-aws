@@ -9,7 +9,7 @@ spec:
     serviceName: default-http-backend
     servicePort: 80
   rules:
-    - host: api2.your.domain.com
+    - host: a2e01fd50cf9711e8b9fa066499c34bb-105882575.eu-west-1.elb.amazonaws.com
       http:
         paths:
         - path: /test
